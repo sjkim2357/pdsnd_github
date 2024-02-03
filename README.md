@@ -13,5 +13,6 @@ We analyze bike share system data from three major US cities: Chicago, New York 
 [3]washington.csv
 
 ### Credits
-Udacity 
+Udacity - Introduction to Version Control 
+
 
