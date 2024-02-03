@@ -2,7 +2,7 @@
 02/03/2024
 
 ### Project Title
-BikeShare project
+BikeShare project using data from three cities 
 
 ### Description
 We analyze bike share system data from three major US cities: Chicago, New York City, and Washington. We use Python language to interactively load data and compute descriptive statistics to provide insights.
