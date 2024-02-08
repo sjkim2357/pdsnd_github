@@ -8,10 +8,16 @@ CITY_DATA = { 'chicago': 'data/chicago.csv', 'Chicago': 'data/chicago.csv',
               'new york city': 'data/new_york_city.csv', 'washington': 'data/washington.csv',
              'Washington': 'data/washington.csv' }
 
-#Function to figure out the filtering requirements of the user - using user defined function
+#Function to figure out the filtering requirements of the user - using user-defined function
 def get_filters():
     """
+<<<<<<< HEAD
     Asks user to specify a city, month, and day to analyze. #change of description in local repository
+||||||| 388f7f0
+    Asks user to specify a city, month, and day to analyze.
+=======
+    Specify a city, month, and day to analyze.
+>>>>>>> refactoring
 
     Args:
         None.
