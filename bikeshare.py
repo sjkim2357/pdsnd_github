@@ -35,7 +35,7 @@ def get_filters():
         city = input("Please enter the name of the city: ").lower()
 
         if city not in CITY_DATA.keys():
-            print("\nPlease check your input, it doesn\'t appear to be conforming to any of the accepted input formats.")
+            print("\nError: Invalid input. Please enter a valid city name (Chicago, New York City, Washington).")
             print("\nRestarting...")
 
     print(f"\nYou have chosen {city.title()} as your city.")
