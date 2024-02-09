@@ -32,7 +32,8 @@ def get_filters():
         print("\nAccepted input:\nFull name of city; not case sensitive (e.g. chicago or CHICAGO).\nFull name in title case (e.g. Chicago).")
         #Taking user input and converting into lower to standardize them
         #You will find this happening at every stage of input throughout this
-        city = input().lower()
+        city = input("Please enter the name of the city: ").lower() 
+	#Improve user input prompt for city selection
 
         if city not in CITY_DATA.keys():
             print("\nPlease check your input, it doesn\'t appear to be conforming to any of the accepted input formats.")
